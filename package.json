@@ -1,7 +1,7 @@
 {
-  "name": "express-typescript-eslint-prettier-template",
+  "name": "cloudwatch-logs",
   "version": "1.0.0",
-  "description": "An Express.js template with Typescript, ESLint and prettier",
+  "description": "Cloudwatch logs example",
   "scripts": {
     "start": "node --env-file .env dist/index.js",
     "dev": "tsx --watch --env-file .env.development src/index.ts",
@@ -21,16 +21,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pool1541/express-typescript-eslint-prettier-template.git"
+    "url": "git+https://github.com/Pool1541/cloudwatch-logs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Pool1541/express-typescript-eslint-prettier-template/issues"
+    "url": "https://github.com/Pool1541/cloudwatch-logs/issues"
   },
-  "homepage": "https://github.com/Pool1541/express-typescript-eslint-prettier-template#readme",
+  "homepage": "https://github.com/Pool1541/cloudwatch-logs#readme",
   "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.816.0",
     "express": "^5.1.0"
   },
   "devDependencies": {
